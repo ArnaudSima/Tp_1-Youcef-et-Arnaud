@@ -1,0 +1,115 @@
+body {
+    margin: 6px 140px;
+    padding: 0;
+    border: solid 15px;
+    background-color: #F8F0F0;
+
+
+
+  }
+
+  h1 {
+      color: #951616;
+font-family: Galdeano;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  p{
+      color: #000;
+font-family: Galdeano;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .button-text {
+color: #000;
+font-family: Galdeano;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer; /* Add cursor pointer for clickable effect */
+}
+  #top-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    background-color: #E5E2E2;
+  }
+
+  #left-buttons, #right-buttons {
+    display: flex;
+    gap: 40px;
+  }
+
+  #banner-image {
+      width: 202.958px;
+height: 68px;
+flex-shrink: 0;
+  }
+
+#pc-image {
+  width: 245px;
+height: 89px;
+flex-shrink: 0;
+}
+
+#tracker-image {
+  width: 385px;
+height: 56px;
+flex-shrink: 0;
+margin-bottom: 20px;
+
+}
+
+  #centered-images {
+    text-align: center;
+    margin: 30px 30; /* Add margin inside the borders */
+  }
+
+  #center-image {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+  #line-after-banner {
+    border: 9px solid black;
+    margin: 0 ; /* Reset margin for the line */
+  }
+
+  #main-content {
+    padding: 30px 100px; /* Add padding inside the borders for the main content */
+  }
+
+  #accueil-button {
+margin-left: 35px; /* Add space after the Accueil button */
+}
+
+#contact-button {
+margin-right: 35px; /* Add space before the Contact button */
+}
+
+#address-container {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .flex-container {
+    display: flex;
+}
+
+.images {
+
+  width: 50%;
+  height: 50%;
+}
